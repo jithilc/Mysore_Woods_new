@@ -8,19 +8,35 @@
     <link rel="icon" href="img/favicon.jpg" type="image/jpeg">
     <!-- Link to the external stylesheet -->
     <link rel="stylesheet" href="css/index.css">
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NRLQHB5D0C"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-NRLQHB5D0C');
+    </script>
+    <!-- End Google Analytics -->
+    
 </head>
 <body>
     <header>
-        <div>Contact Us: www.mysorewoodtrading.com | +91 9142744442</div>
+        <div>Contact Us: www.mysorewoodtrading.com | Kannur, Kerala | +91 9142744442</div>
     </header>
     <div class="content">
-        <img src="img/image1.jpg" alt="Image 1">
-        <img src="img/image2.jpg" alt="Image 2">
+        <img src="img/image1.jpg" alt="Image 1" class="image-same-size">
+        <img src="img/image2.jpg" alt="Image 2" class="image-same-size">
+
+        <!-- Embed PDF within the content -->
+        <object data="img/door_brochure.pdf" type="application/pdf" width="600" height="400">
+            <p>Your browser does not support PDFs. <a href="path/to/your/file.pdf">Download the PDF</a>.</p>
+        </object>
     </div>
     <a href="https://wa.me/9142744442" target="_blank" class="whatsapp-button">
         <img src="img/whatsapp_icon.jpg" alt="WhatsApp Icon" width="24" height="24" />
-        Chat with us
+        Chat with us Now
     </a>
 </body>
 </html>
-
